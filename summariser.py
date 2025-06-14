@@ -65,10 +65,40 @@ BEST_MEDICINES = {
 # Normal ranges for test results
 NORMAL_RANGES = {
     "hemoglobin": (13.5, 17.5),
+    "rbc": (4.7, 6.1),
     "wbc": (4000, 11000),
     "platelets": (150000, 450000),
-    "glucose": (70, 140),
-    "cholesterol": (0, 200)
+    "hematocrit": (40, 50),
+
+    "glucose_fasting": (70, 100),
+    "glucose_postprandial": (70, 140),
+    "hba1c": (4.0, 5.6),  
+
+    "cholesterol_total": (0, 200),
+    "hdl": (40, 60),
+    "ldl": (0, 130),
+    "triglycerides": (0, 150),
+
+    "bun": (7, 20),
+    "creatinine": (0.6, 1.3),
+
+    "sodium": (135, 145),
+    "potassium": (3.5, 5.1),
+    "calcium": (8.6, 10.2),
+    "iron": (60, 170),
+
+    "bilirubin": (0.1, 1.2),
+    "alkaline_phosphatase": (44, 147),
+    "alt": (7, 56),
+    "ast": (10, 40),
+
+    "tsh": (0.4, 4.0),
+    "vitamin_d": (20, 50),
+
+    "blood_pressure": {
+        "systolic": (90, 120),
+        "diastolic": (60, 80)
+    }
 }
 
 # Extract text from PDF
